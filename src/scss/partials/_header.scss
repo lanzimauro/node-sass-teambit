@@ -1,0 +1,33 @@
+header {
+    margin-top: 5px;
+    .center {
+        margin: 0 auto;
+        width: 85vw;
+        padding: 20px 5px;
+        border-bottom: 1px solid $primary_color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu {
+            ul {
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    margin-right: 30px;
+                    font-weight: bold;
+                    &:hover {
+                        color: #263972;
+                        cursor: pointer;
+                    }
+
+                    i.sol {
+                        margin-left: 5px;
+                        position: relative;
+                        top: 3px;
+                    }
+                }
+            }
+        }
+    }
+}

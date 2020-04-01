@@ -1,0 +1,66 @@
+/*Reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+body {
+  color: #58402c;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #263972;
+  background-color: #ffffff;
+  color: #58402c;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #263972;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*Header*/
+
+header {
+  margin-top: 5px;
+}
+
+header .center {
+  margin: 0 auto;
+  width: 85vw;
+  padding: 20px 5px;
+  border-bottom: 1px solid #58402c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .center .menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+header .center .menu ul li:hover {
+  color: #263972;
+  cursor: pointer;
+}
+
+header .center .menu ul li i.sol {
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+

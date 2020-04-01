@@ -1,0 +1,19 @@
+body {
+    color: $primary_color;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #263972;
+    background-color: #ffffff;
+    color: #58402c;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #263972;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
