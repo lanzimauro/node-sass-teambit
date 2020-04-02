@@ -1,0 +1,56 @@
+main {
+    // width: 85vw;
+    // margin: 0 auto;
+
+    .container1 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        width: 85vw;
+        margin: 0 auto;
+        .left {
+            width: 50%;
+            float: left;
+
+            h1 {
+                font-size: 55px;
+                margin-bottom: 10px;
+            }
+
+            .sign-up {
+                margin-bottom: 10px;
+
+                .btn-sign {
+                    background-color: #263972;
+                    color: #fff;
+                    margin: 10px;
+                }
+            }
+
+            span:hover {
+                cursor: pointer;
+                color: #263972;
+            }
+
+        }
+
+        .right {
+            width: 50%;
+            float: left;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .testo {
+            margin: 0 auto;
+            width: 60%;
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+
+    .container-full-widht {
+        background-color: #ffe7d2;
+    }
+}

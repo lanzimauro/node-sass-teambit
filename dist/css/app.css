@@ -20,7 +20,7 @@ body {
   border: 1px solid;
   border-color: #263972;
   background-color: #ffffff;
-  color: #58402c;
+  color: #263972;
   font-weight: bold;
 }
 
@@ -28,6 +28,12 @@ body {
   background-color: #263972;
   color: #ffffff;
   cursor: pointer;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*Header*/
@@ -62,5 +68,59 @@ header .center .menu ul li i.sol {
   margin-left: 5px;
   position: relative;
   top: 3px;
+}
+
+/*Main*/
+
+main .container1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+main .container1 .left {
+  width: 50%;
+  float: left;
+}
+
+main .container1 .left h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+main .container1 .left .sign-up {
+  margin-bottom: 10px;
+}
+
+main .container1 .left .sign-up .btn-sign {
+  background-color: #263972;
+  color: #fff;
+  margin: 10px;
+}
+
+main .container1 .left span:hover {
+  cursor: pointer;
+  color: #263972;
+}
+
+main .container1 .right {
+  width: 50%;
+  float: left;
+}
+
+main .container1 .right img {
+  width: 100%;
+}
+
+main .container1 .testo {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  font-size: 17px;
+}
+
+main .container-full-widht {
+  background-color: #ffe7d2;
 }
 
